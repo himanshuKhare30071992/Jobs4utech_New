@@ -49,7 +49,7 @@ public class PuneTestingJobs
 		}
 
 		WebElement jobFound = driver.findElement(By.xpath("//h5[text()='Found ']//span"));
-		String puneJobsCount = jobFound.getText();
+		//String puneJobsCount = jobFound.getText();
 		
 		System.out.println("--------------------------------------------------------------");
 		
